@@ -9,21 +9,41 @@
     <link rel="icon" type="image/png" href="./favicon.png">
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="container">
+        <div class="header-logo">
+          <a href="/">
+            <img src="logo-black.png" alt="Techium logo" width="160" height="40">
+          </a>
+        </div>
+        <nav class="navbar-menu">
+          <ul class="nav">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="#services">Services</a></li>
+            <li class="nav-item"><a href="#works">Works</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#latest_news">Latest news</a></li>
+            <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
       <h1>Homepage</h1>
 
-      <!-- Services section -->
       <section>
-        <header>
-          <h2>Services</h2>
-        </header>
+        <h2>Hero section</h2>
+      </section>
+
+      <section>
+        <h2>Services section</h2>
       </section>
 
       <!-- Works section -->
-      <section>
+      <section id="works">
         <header>
-          <h2>Works</h2>
+          <h2>Works section</h2>
         </header>
         <article>
           <div><img src="images/pic-work-01.jpg" alt=""></div>
@@ -39,10 +59,10 @@
         </article>
       </section>
 
-      <!-- About Us section -->
-      <section>
+      <!-- About section -->
+      <section id="about">
         <header>
-          <h2>About Us</h2>
+          <h2>About section</h2>
         </header>
         <div>
           <img src="images/pic-about-us.jpg" alt="" width="460" height="447">
@@ -52,9 +72,9 @@
       </section>
 
       <!-- Latest news section -->
-      <section>
+      <section id="latest_news">
         <header>
-          <h2>Latest news</h2>
+          <h2>Latest news section</h2>
         </header>
         <article>
           <div><img src="images/pic-blog-01.jpg" alt="" width="305" height="205"></div>
@@ -71,40 +91,39 @@
       </section>
 
       <!-- Testimonials section -->
-      <section>
+      <section id="testimonials">
         <header>
-          <h2>Testimonials</h2>
+          <h2>Testimonials section</h2>
         </header>
         <article>
           <img src="images/pic-person-01.jpg" alt="Yuri Y. avatar" width="100" height="100">
-          <blockquote>
+          <blockquote cite="Yuri Y.">
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            <cite>Yuri Y.</cite>
           </blockquote>
         </article>
         <article>
           <img src="images/pic-person-02.jpg" alt="Dorrie S. avatar" width="100" height="100">
-          <blockquote>
+          <blockquote cite="Dorrie S.">
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            <cite>Dorrie S.</cite>
           </blockquote>
         </article>
         <article>
           <img src="images/pic-person-03.jpg" alt="Sven H. avatar" width="100" height="100">
-          <blockquote>
+          <blockquote cite="Sven H.">
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            <cite>Sven H.</cite>
           </blockquote>
         </article>
       </section>
 
-      <!-- Contact section -->
-      <section>
-        <header>
-          <h2>Contact</h2>
-        </header>
+      <section id="contact">
+        <h2>Contact section</h2>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <img src="logo-black.png" alt="Techium logo" width="160" height="40">
+      <address>
+        972 Mission St. San Francisco, CA 94103
+      </address>
+    </footer>
   </body>
 </html>
