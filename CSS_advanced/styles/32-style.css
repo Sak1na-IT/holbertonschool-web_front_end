@@ -341,6 +341,7 @@ ul.row {
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
@@ -354,7 +355,7 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work:hover .card-image img {
+.card-work:hover .card-image {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
