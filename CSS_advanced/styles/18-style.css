@@ -125,10 +125,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -156,4 +152,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
